@@ -20,11 +20,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\Acetylene\Acetylene.h" />
+    <ClInclude Include="..\..\..\include\Acetylene\Input.h" />
     <ClInclude Include="..\..\..\include\Acetylene\Log.h" />
     <ClInclude Include="..\..\..\include\Acetylene\Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\Acetylene.cpp" />
+    <ClCompile Include="..\..\..\src\Input.cpp" />
     <ClCompile Include="..\..\..\src\Log.cpp" />
     <ClCompile Include="..\..\..\src\Window.cpp" />
   </ItemGroup>
