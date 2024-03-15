@@ -20,9 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\Acetylene\Acetylene.h" />
+    <ClInclude Include="..\..\..\include\Acetylene\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\Acetylene.cpp" />
+    <ClCompile Include="..\..\..\src\Log.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
