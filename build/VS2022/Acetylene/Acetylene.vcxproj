@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\include\Acetylene\Acetylene.h" />
     <ClInclude Include="..\..\..\include\Acetylene\Audio.h" />
+    <ClInclude Include="..\..\..\include\Acetylene\Entity.h" />
     <ClInclude Include="..\..\..\include\Acetylene\Input.h" />
     <ClInclude Include="..\..\..\include\Acetylene\Log.h" />
     <ClInclude Include="..\..\..\include\Acetylene\Window.h" />
@@ -28,6 +29,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\src\Acetylene.cpp" />
     <ClCompile Include="..\..\..\src\Audio.cpp" />
+    <ClCompile Include="..\..\..\src\Entity.cpp" />
     <ClCompile Include="..\..\..\src\Input.cpp" />
     <ClCompile Include="..\..\..\src\Log.cpp" />
     <ClCompile Include="..\..\..\src\Window.cpp" />
