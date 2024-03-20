@@ -592,8 +592,8 @@ namespace Acetylene {
 		slider.
 		@param const std::string& textureFileName: The file name of the texture
 		for the background of this slider.
-		@param const glm::vec2& cursorDimensions: The dimensions of the cursor
-		for this slider in pixels.
+		@param const glm::vec2& cursorDimensions: The width of the cursor in
+		pixels and the normalized height of the cursor.
 		@param const std::string& cursorTextureFileName: The file name of the
 		texture for the cursor on this slider.
 		@param const std::string& labelText: The text to appear in the label
@@ -649,6 +649,11 @@ namespace Acetylene {
 		@param bool enabled: Whether this slider should be enabled.
 		*/
 		virtual void setEnabled(bool) override;
+		/*
+		Set the normalized dimensions of this slider.
+		@param const glm::vec2& dimensions: The new normalized dimensions.
+		*/
+		virtual void setDimensions(const glm::vec2&) override;
 
 	protected:
 		// The texture coordinates for an unselected slider.
@@ -704,8 +709,8 @@ namespace Acetylene {
 		texture of this text box's background.
 		@param const std::string& labelText: The text to appear in the label
 		for this text box.
-		@param const glm::vec2& cursorDimensions: The dimensions of the cursor
-		for this text box in pixels.
+		@param const glm::vec2& cursorDimensions: The width of the cursor in
+		pixels and the normalized height of the cursor.
 		@param const std::string& cursorTextureFileName: The file name for the
 		texture of this text box's cursor.
 		@param const std::string& text: The initial text to appear in this text
@@ -743,9 +748,15 @@ namespace Acetylene {
 		virtual void setSelected(bool);
 		/*
 		Set the normalized position of this text box.
-		@param const glm::vec3& The new normalized position for this text box.
+		@param const glm::vec3&: The new normalized position for this text box.
 		*/
 		virtual void setPosition(const glm::vec3&) override;
+		/*
+		Set the normalized dimensions of this text box.
+		@param const glm::vec2&: The new normalized dimensions for this text
+		box.
+		*/
+		virtual void setDimensions(const glm::vec2&) override;
 		/*
 		Get this text box's content text.
 		@return const std::string&: The content of this text box.
@@ -1122,8 +1133,8 @@ namespace Acetylene {
 		of this text area's background.
 		@param const std::string& labelText: The text to appear in the label for
 		this text area.
-		@param const glm::vec2& cursorDimensions: The dimensions of the cursor
-		for this text area in pixels.
+		@param const glm::vec2& cursorDimensions: The width of the cursor in
+		pixels and the normalized height of the cursor.
 		@param const std::string& cursorTextureFileName: The file name of the
 		texture of this text area's cursor.
 		@param const std::string& text: The initial text to appear in this text
@@ -1230,8 +1241,8 @@ namespace Acetylene {
 		texture of this text box's background.
 		@param const std::string& labelText: The text to appear in the label
 		for this text box.
-		@param const glm::vec2& cursorDimensions: The dimensions of the cursor
-		for this text box in pixels.
+		@param const glm::vec2& cursorDimensions: The width of the cursor in
+		pixels and the normalized height of the cursor.
 		@param const std::string& cursorTextureFileName: The file name for the
 		texture of this text box's cursor.
 		@param const std::string& text: The initial text to appear in this text

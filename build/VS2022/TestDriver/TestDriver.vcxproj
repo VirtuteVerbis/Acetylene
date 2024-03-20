@@ -143,6 +143,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\include\TestDriver\Scenes.h" />
+    <ClInclude Include="..\..\..\include\TestDriver\Sprites.h" />
+    <ClInclude Include="..\..\..\include\TestDriver\TestDriver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Coin.cpp" />
+    <ClCompile Include="..\..\..\src\Ember.cpp" />
+    <ClCompile Include="..\..\..\src\GameScene.cpp" />
+    <ClCompile Include="..\..\..\src\OptionsScene.cpp" />
+    <ClCompile Include="..\..\..\src\Player.cpp" />
+    <ClCompile Include="..\..\..\src\TestDriver.cpp" />
+    <ClCompile Include="..\..\..\src\TitleScene.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

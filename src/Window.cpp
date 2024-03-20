@@ -74,7 +74,7 @@ namespace Acetylene {
 	}
 
 	void WindowManager::setDimensions(const glm::ivec2& dimensions) {
-		m_windowedDimensions = m_dimensions;
+		m_windowedDimensions = dimensions;
 		ACLOG(Window, Message, "Updated window dimensions (", dimensions.x,
 			", ", dimensions.y, ").");
 		if (m_fullscreen) {
@@ -113,9 +113,10 @@ namespace Acetylene {
 		else if (!fullscreen && m_fullscreen) {
 			ACLOG(Window, Message, "Setting window to windowed mode.");
 			glfwSetWindowMonitor(m_handle, 0, 0, 0, m_windowedDimensions.x,
-				m_windowedDimensions.y,
-				GLFW_DONT_CARE);
+				m_windowedDimensions.y, GLFW_DONT_CARE);
 			glfwSetWindowAttrib(m_handle, GLFW_DECORATED, GLFW_TRUE);
+			ACLOG(Window, Message, "Windowed dims: (", m_windowedDimensions.x,
+				", ", m_windowedDimensions.y, ").");
 			glViewport(0, 0, m_windowedDimensions.x, m_windowedDimensions.y);
 			m_dimensions = m_windowedDimensions;
 			center();

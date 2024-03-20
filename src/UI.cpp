@@ -554,7 +554,10 @@ namespace Acetylene {
 		Label::init(position, dimensions, textureFileName, labelText,
 			labelAlignment, horizontalLabelAlignment, verticalLabelAlignment);
 		m_cursorAlignment = cursorAlignment;
-		m_cursor.init(glm::vec3(), cursorDimensions, cursorTextureFileName);
+		glm::ivec2 wd = App::Window.getDimensions();
+		m_cursor.init(glm::vec3(),
+			glm::vec2(cursorDimensions.x, cursorDimensions.y * (float)wd.y),
+			cursorTextureFileName);
 		m_value = 0.0f;
 		setSelected(false);
 	}
@@ -594,6 +597,15 @@ namespace Acetylene {
 		if (!m_enabled) {
 			setSelected(false);
 		}
+	}
+
+	void Slider::setDimensions(const glm::vec2& dimensions) {
+		glm::ivec2 wd = App::Window.getDimensions();
+		float scale = dimensions.y / (m_background.dimensions.y / (float)wd.y);
+		m_background.dimensions = glm::vec2(dimensions.x * wd.x,
+			dimensions.y * wd.y);
+		m_cursor.dimensions = glm::vec2(m_cursor.dimensions.x,
+			m_cursor.dimensions.y * scale);
 	}
 
 	void Slider::draw() {
@@ -689,7 +701,10 @@ namespace Acetylene {
 		m_text = text;
 		m_textHorizontalPosition = 0.0f;
 		m_cursorAlignment = cursorAlignment;
-		m_cursor.init(glm::vec3(), cursorDimensions, cursorTextureFileName);
+		glm::ivec2 wd = App::Window.getDimensions();
+		m_cursor.init(glm::vec3(),
+			glm::vec2(cursorDimensions.x, cursorDimensions.y * wd.y),
+			cursorTextureFileName);
 		m_cursorPosition = 0;
 		m_timer = 0.0f;
 		m_allowedCharacters = allowedCharacters;
@@ -714,6 +729,15 @@ namespace Acetylene {
 	void TextBox::setPosition(const glm::vec3& position) {
 		Label::setPosition(position);
 		m_textHorizontalPosition = m_background.position.x;
+	}
+
+	void TextBox::setDimensions(const glm::vec2& dimensions) {
+		glm::ivec2 wd = App::Window.getDimensions();
+		float scale = dimensions.y / (m_background.dimensions.y / (float)wd.y);
+		m_background.dimensions = glm::vec2(dimensions.x * wd.x,
+			dimensions.y * wd.y);
+		m_cursor.dimensions = glm::vec2(m_cursor.dimensions.x,
+			m_cursor.dimensions.y * scale);
 	}
 
 	const std::string& TextBox::getText() const {
@@ -1025,6 +1049,10 @@ namespace Acetylene {
 
 	void Carousel::setValue(const std::string& value) {
 		int index = getValueIndex(value);
+		if (index == -1) {
+			addValue(value);
+			index = getValueIndex(value);
+		}
 		setValueIndex(index);
 	}
 

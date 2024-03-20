@@ -1,0 +1,4 @@
+Resolution: 800x600
+Fullscreen: 0
+Volume: 1
+Username: VirtuteVerbis

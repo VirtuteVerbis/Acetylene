@@ -1,0 +1,14 @@
+﻿  Acetylene.cpp
+  Audio.cpp
+  Entity.cpp
+  Graphics.cpp
+C:\Users\VirtuteVerbis\Desktop\Acetylene\GTHUB\src\Graphics.cpp(113,25): warning C4312: 'type cast': conversion from 'unsigned int' to 'void *' of greater size
+  Input.cpp
+C:\Users\VirtuteVerbis\Desktop\Acetylene\GTHUB\src\Input.cpp(99,20): warning C4101: 'm_removedControllersMutex': unreferenced local variable
+C:\Users\VirtuteVerbis\Desktop\Acetylene\GTHUB\src\Input.cpp(178,20): warning C4101: 'm_removedControllersMutex': unreferenced local variable
+C:\Users\VirtuteVerbis\Desktop\Acetylene\GTHUB\src\Input.cpp(489,20): warning C4101: 'm_removedControllersMutex': unreferenced local variable
+  Log.cpp
+  UI.cpp
+  Window.cpp
+  picopng.cpp
+  Acetylene.vcxproj -> C:\Users\VirtuteVerbis\Desktop\Acetylene\GTHUB\lib\Release\Acetylene.lib

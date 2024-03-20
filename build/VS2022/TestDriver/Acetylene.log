@@ -1,0 +1,166 @@
+2024.03.20 @ 19.57.45: [App] [Message] Initializing app.
+2024.03.20 @ 19.57.45: [App] [Message] Initialized logging system.
+2024.03.20 @ 19.57.45: [App] [Message] Initializing app window.
+2024.03.20 @ 19.57.45: [Window] [Message] Initialized GLFW library.
+2024.03.20 @ 19.57.45: [Window] [Message] Created GLFW window.
+2024.03.20 @ 19.57.45: [Window] [Message] Updated window dimensions (800, 600).
+2024.03.20 @ 19.57.45: [Window] [Message] Set window title "TestDriver".
+2024.03.20 @ 19.57.45: [Input] [Message] Added GLFW callback functions.
+2024.03.20 @ 19.57.45: [Input] [Message] Added 0 pre-existing controllers.
+2024.03.20 @ 19.57.45: [App] [Message] Initialized user input manager.
+2024.03.20 @ 19.57.46: [Audio] [Message] Initialized SoLoud library.
+2024.03.20 @ 19.57.46: [App] [Message] Initialized audio manager.
+2024.03.20 @ 19.57.46: [Renderer] [Message] Initialized GLEW library: 4.6.0 - Build 31.0.101.4953.
+2024.03.20 @ 19.57.46: [Renderer] [Message] Initialized FreeType library.
+2024.03.20 @ 19.57.46: [Renderer] [Message] Set up initial OpenGL parameters.
+2024.03.20 @ 19.57.46: [Shader] [Message] Compiled vertex shader 1.
+2024.03.20 @ 19.57.46: [Shader] [Message] Compiled fragment shader 2.
+2024.03.20 @ 19.57.46: [Shader] [Message] Linked shader program 3.
+2024.03.20 @ 19.57.46: [Renderer] [Message] Compiled default shader.
+2024.03.20 @ 19.57.46: [App] [Message] Initialized the renderer.
+2024.03.20 @ 19.57.46: [App] [Message] Set physics configuration.
+2024.03.20 @ 19.57.46: [App] [Message] Setting new scene at 00007FF72087EE00.
+2024.03.20 @ 19.57.46: [Shader] [Message] Compiled vertex shader 4.
+2024.03.20 @ 19.57.46: [Shader] [Message] Compiled fragment shader 5.
+2024.03.20 @ 19.57.46: [Shader] [Message] Linked shader program 6.
+2024.03.20 @ 19.57.46: [UIGroup] [Message] Initialized UI group 0.
+2024.03.20 @ 19.57.46: [Input] [Message] Added input listener at 00007FF72087EFD0.
+2024.03.20 @ 19.57.46: [UIGroup] [Message] Added UI component 0 to group 0.
+2024.03.20 @ 19.57.46: [Input] [Message] Added input listener at 00007FF72087F0C8.
+2024.03.20 @ 19.57.46: [UIGroup] [Message] Added UI component 1 to group 0.
+2024.03.20 @ 19.57.46: [Input] [Message] Added input listener at 00007FF72087F1C0.
+2024.03.20 @ 19.57.46: [UIGroup] [Message] Added UI component 2 to group 0.
+2024.03.20 @ 19.57.46: [TitleScene] [Message] Initialized title scene.
+2024.03.20 @ 19.57.46: [TitleScene] [Message] Camera pos: (400, 300).
+2024.03.20 @ 19.57.46: [Audio] [Message] Loading sound effect "Assets/audio/low_droning.wav".
+2024.03.20 @ 19.57.46: [Audio] [Message] Stopped music track.
+2024.03.20 @ 19.57.46: [Audio] [Message] Playing music track "Assets/audio/low_droning.wav".
+2024.03.20 @ 19.57.46: [TitleScene] [Message] Entered title scene from 00007FF72087EE00.
+2024.03.20 @ 19.57.46: [Input] [Message] Added input listener at 00007FF72087EE00.
+2024.03.20 @ 19.57.46: [App] [Message] Set initial scene, done initializing app.
+2024.03.20 @ 19.57.46: [App] [Message] Running main app loop.
+2024.03.20 @ 19.57.46: [Renderer] [Message] Loading font "Assets/fonts/Work_Sans/static/WorkSans-Regular.ttf".
+2024.03.20 @ 19.57.46: [Renderer] [Message] Reading texture from "Assets/textures/UI/button.png".
+2024.03.20 @ 19.57.46: [Renderer] [Message] Reading texture from "Assets/textures/ember.png".
+2024.03.20 @ 19.57.48: [TitleScene] [Message] Options button clicked.
+2024.03.20 @ 19.57.48: [Audio] [Message] Loading sound effect "Assets/audio/click.wav".
+2024.03.20 @ 19.57.48: [App] [Message] Setting new scene at 00007FF72087E0C0.
+2024.03.20 @ 19.57.48: [Input] [Message] Removed input listener at 00007FF72087EE00.
+2024.03.20 @ 19.57.48: [TitleScene] [Message] Left title scene for 00007FF72087E0C0.
+2024.03.20 @ 19.57.48: [Shader] [Message] Compiled vertex shader 7.
+2024.03.20 @ 19.57.48: [Shader] [Message] Compiled fragment shader 8.
+2024.03.20 @ 19.57.48: [Shader] [Message] Linked shader program 9.
+2024.03.20 @ 19.57.48: [UIGroup] [Message] Initialized UI group 0.
+2024.03.20 @ 19.57.48: [Input] [Message] Added input listener at 00007FF72087E298.
+2024.03.20 @ 19.57.48: [UIGroup] [Message] Added UI component 0 to group 0.
+2024.03.20 @ 19.57.48: [Input] [Message] Added input listener at 00007FF72087E390.
+2024.03.20 @ 19.57.48: [UIGroup] [Message] Added UI component 1 to group 0.
+2024.03.20 @ 19.57.48: [Input] [Message] Added input listener at 00007FF72087E488.
+2024.03.20 @ 19.57.48: [UIGroup] [Message] Added UI component 2 to group 0.
+2024.03.20 @ 19.57.48: [UIGroup] [Message] Initialized UI group 1.
+2024.03.20 @ 19.57.48: [Input] [Message] Added input listener at 00007FF72087E610.
+2024.03.20 @ 19.57.48: [UIGroup] [Message] Added UI component 0 to group 1.
+2024.03.20 @ 19.57.48: [Input] [Message] Added input listener at 00007FF72087E930.
+2024.03.20 @ 19.57.48: [UIGroup] [Message] Added UI component 1 to group 1.
+2024.03.20 @ 19.57.48: [Input] [Message] Added input listener at 00007FF72087EA30.
+2024.03.20 @ 19.57.48: [UIGroup] [Message] Added UI component 2 to group 1.
+2024.03.20 @ 19.57.48: [Input] [Message] Added input listener at 00007FF72087EBD0.
+2024.03.20 @ 19.57.48: [UIGroup] [Message] Added UI component 3 to group 1.
+2024.03.20 @ 19.57.48: [OptionsScene] [Message] Initialized options scene.
+2024.03.20 @ 19.57.48: [Audio] [Message] Stopped music track.
+2024.03.20 @ 19.57.48: [Audio] [Message] Playing music track "Assets/audio/low_droning.wav".
+2024.03.20 @ 19.57.48: [OptionsScene] [Message] Entered options scene from 00007FF72087EE00.
+2024.03.20 @ 19.57.48: [Input] [Message] Added input listener at 00007FF72087E0C0.
+2024.03.20 @ 19.57.48: [Renderer] [Message] Reading texture from "Assets/textures/UI/carousel.png".
+2024.03.20 @ 19.57.48: [Renderer] [Message] Reading texture from "Assets/textures/UI/carousel_button.png".
+2024.03.20 @ 19.57.48: [Renderer] [Message] Reading texture from "Assets/textures/UI/switch.png".
+2024.03.20 @ 19.57.48: [Renderer] [Message] Reading texture from "Assets/textures/UI/slider.png".
+2024.03.20 @ 19.57.48: [Renderer] [Message] Reading texture from "Assets/textures/UI/text_box.png".
+2024.03.20 @ 19.57.48: [Renderer] [Message] Reading texture from "Assets/textures/UI/cursor.png".
+2024.03.20 @ 19.57.49: [OptionsScene] [Message] Back button clicked.
+2024.03.20 @ 19.57.49: [App] [Message] Setting new scene at 00007FF72087EE00.
+2024.03.20 @ 19.57.49: [Input] [Message] Removed input listener at 00007FF72087E0C0.
+2024.03.20 @ 19.57.49: [OptionsScene] [Message] Left options scene for 00007FF72087EE00.
+2024.03.20 @ 19.57.49: [TitleScene] [Message] Camera pos: (400, 300).
+2024.03.20 @ 19.57.49: [Audio] [Message] Stopped music track.
+2024.03.20 @ 19.57.49: [Audio] [Message] Playing music track "Assets/audio/low_droning.wav".
+2024.03.20 @ 19.57.49: [TitleScene] [Message] Entered title scene from 00007FF72087E0C0.
+2024.03.20 @ 19.57.49: [Input] [Message] Added input listener at 00007FF72087EE00.
+2024.03.20 @ 19.57.49: [TitleScene] [Message] Start button clicked.
+2024.03.20 @ 19.57.49: [App] [Message] Setting new scene at 00007FF72087DA00.
+2024.03.20 @ 19.57.49: [Input] [Message] Removed input listener at 00007FF72087EE00.
+2024.03.20 @ 19.57.49: [TitleScene] [Message] Left title scene for 00007FF72087DA00.
+2024.03.20 @ 19.57.49: [Shader] [Message] Compiled vertex shader 10.
+2024.03.20 @ 19.57.49: [Shader] [Message] Compiled fragment shader 11.
+2024.03.20 @ 19.57.49: [Shader] [Message] Linked shader program 12.
+2024.03.20 @ 19.57.49: [UIGroup] [Message] Initialized UI group 0.
+2024.03.20 @ 19.57.49: [Input] [Message] Added input listener at 00007FF72087DBD0.
+2024.03.20 @ 19.57.49: [UIGroup] [Message] Added UI component 0 to group 0.
+2024.03.20 @ 19.57.49: [Input] [Message] Added input listener at 00007FF72087DCC8.
+2024.03.20 @ 19.57.49: [UIGroup] [Message] Added UI component 1 to group 0.
+2024.03.20 @ 19.57.49: [Input] [Message] Added input listener at 00007FF72087DDC0.
+2024.03.20 @ 19.57.49: [UIGroup] [Message] Added UI component 2 to group 0.
+2024.03.20 @ 19.57.49: [Input] [Message] Removed input listener at 00007FF72087DBD0.
+2024.03.20 @ 19.57.49: [Input] [Message] Removed input listener at 00007FF72087DCC8.
+2024.03.20 @ 19.57.49: [Input] [Message] Removed input listener at 00007FF72087DDC0.
+2024.03.20 @ 19.57.49: [UIGroup] [Message] Disabled UI group 0.
+2024.03.20 @ 19.57.49: [GameScene] [Message] Initialized game scene.
+2024.03.20 @ 19.57.49: [Audio] [Message] Loading sound effect "Assets/audio/high_droning.wav".
+2024.03.20 @ 19.57.49: [Audio] [Message] Stopped music track.
+2024.03.20 @ 19.57.49: [Audio] [Message] Playing music track "Assets/audio/high_droning.wav".
+2024.03.20 @ 19.57.49: [GameScene] [Message] Entered game scene from 00007FF72087EE00.
+2024.03.20 @ 19.57.49: [Input] [Message] Added input listener at 00007FF72087DA00.
+2024.03.20 @ 19.57.49: [Renderer] [Message] Reading texture from "Assets/textures/wall.png".
+2024.03.20 @ 19.57.49: [Renderer] [Message] Reading texture from "Assets/textures/coin.png".
+2024.03.20 @ 19.57.49: [Renderer] [Message] Reading texture from "Assets/textures/player_horizontal.png".
+2024.03.20 @ 19.57.53: [Audio] [Message] Loading sound effect "Assets/audio/ding.wav".
+2024.03.20 @ 19.57.55: [Renderer] [Message] Reading texture from "Assets/textures/player_vertical.png".
+2024.03.20 @ 19.57.59: [Input] [Message] Added input listener at 00007FF72087DBD0.
+2024.03.20 @ 19.57.59: [Input] [Message] Added input listener at 00007FF72087DCC8.
+2024.03.20 @ 19.57.59: [Input] [Message] Added input listener at 00007FF72087DDC0.
+2024.03.20 @ 19.57.59: [UIGroup] [Message] Enabled UI group 0.
+2024.03.20 @ 19.57.59: [App] [Message] Setting new scene at 00007FF72087EE00.
+2024.03.20 @ 19.57.59: [Input] [Message] Removed input listener at 00007FF72087DA00.
+2024.03.20 @ 19.57.59: [GameScene] [Message] Left game scene for 00007FF72087EE00.
+2024.03.20 @ 19.57.59: [TitleScene] [Message] Camera pos: (400, 300).
+2024.03.20 @ 19.57.59: [Audio] [Message] Stopped music track.
+2024.03.20 @ 19.57.59: [Audio] [Message] Playing music track "Assets/audio/low_droning.wav".
+2024.03.20 @ 19.57.59: [TitleScene] [Message] Entered title scene from 00007FF72087DA00.
+2024.03.20 @ 19.57.59: [Input] [Message] Added input listener at 00007FF72087EE00.
+2024.03.20 @ 19.58.00: [TitleScene] [Message] Exit button clicked.
+2024.03.20 @ 19.58.00: [App] [Message] Main app loop finished.
+2024.03.20 @ 19.58.00: [App] [Message] Destroying Acetylene app.
+2024.03.20 @ 19.58.00: [App] [Message] Setting new scene at 00007FF72087EE00.
+2024.03.20 @ 19.58.00: [Input] [Message] Removed input listener at 00007FF72087EE00.
+2024.03.20 @ 19.58.00: [TitleScene] [Message] Left title scene for 00007FF72087EE00.
+2024.03.20 @ 19.58.00: [App] [Message] Destroy scene at 00007FF72087EE00.
+2024.03.20 @ 19.58.00: [App] [Message] Removing scene from memory.
+2024.03.20 @ 19.58.00: [App] [Message] Calling destroy on the scene.
+2024.03.20 @ 19.58.00: [Shader] [Message] Destroying shader 6.
+2024.03.20 @ 19.58.00: [UIGroup] [Message] Destroying UI group 0.
+2024.03.20 @ 19.58.00: [TitleScene] [Message] Destroyed title scene.
+2024.03.20 @ 19.58.00: [App] [Message] Destroy scene at 00007FF72087DA00.
+2024.03.20 @ 19.58.00: [App] [Message] Removing scene from memory.
+2024.03.20 @ 19.58.00: [App] [Message] Calling destroy on the scene.
+2024.03.20 @ 19.58.00: [UIGroup] [Message] Destroying UI group 0.
+2024.03.20 @ 19.58.00: [Shader] [Message] Destroying shader 12.
+2024.03.20 @ 19.58.00: [GameScene] [Message] Destroyed game scene.
+2024.03.20 @ 19.58.00: [App] [Message] Destroy scene at 00007FF72087DA00.
+2024.03.20 @ 19.58.00: [App] [Message] Destroyed all scenes.
+2024.03.20 @ 19.58.00: [App] [Message] Reset physics configuration.
+2024.03.20 @ 19.58.00: [App] [Message] Destroying the renderer.
+2024.03.20 @ 19.58.00: [Renderer] [Message] Destroying renderer.
+2024.03.20 @ 19.58.00: [Renderer] [Message] Freed vertex array, vertex buffer, and index buffer.
+2024.03.20 @ 19.58.00: [Renderer] [Message] Deleted 140 textures from OpenGL.
+2024.03.20 @ 19.58.00: [Shader] [Message] Destroying shader 3.
+2024.03.20 @ 19.58.00: [Renderer] [Message] Freed default shader.
+2024.03.20 @ 19.58.00: [Renderer] [Message] Freed 1 fonts.
+2024.03.20 @ 19.58.00: [Renderer] [Message] Freed FreeType library.
+2024.03.20 @ 19.58.00: [App] [Message] Destroying audio manager.
+2024.03.20 @ 19.58.00: [Audio] [Message] Destroyed audio manager.
+2024.03.20 @ 19.58.00: [App] [Message] Destroying user input manager.
+2024.03.20 @ 19.58.00: [Input] [Message] Removing 13 input listeners.
+2024.03.20 @ 19.58.00: [App] [Message] Destroying app window.
+2024.03.20 @ 19.58.00: [Window] [Message] Destroyed window.
+2024.03.20 @ 19.58.00: [Window] [Message] Terminated GLFW library.
+2024.03.20 @ 19.58.00: [App] [Message] Destroying logging system.
